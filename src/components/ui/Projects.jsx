@@ -12,7 +12,7 @@ export default function Projects({ name, img, alt, type, link, year, tools }) {
           src={img}
           alt={alt}
           width="800"
-          height="600"
+          height="500"
         />
       </a>
       <div className="mt-4">

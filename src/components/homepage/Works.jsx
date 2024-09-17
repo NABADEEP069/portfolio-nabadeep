@@ -1,8 +1,8 @@
-import gestureDetection from "/src/assets/images/real-time-gesture-detection-using-CNN.webp";
-import portfolio from "/src/assets/images/portfolio-website.webp";
-import cryptotracker from "/src/assets/images/crypto-price-tracker.webp";
-import chatapp from "/src/assets/images/chat-app.webp";
-import complainSys from "/src/assets/images/compain-management-system.webp";
+import gestureDetection from "/src/assets/images/Whiplash_photo.jpg";
+import portfolio from "/src/assets/images/t&p.jpg";
+import cryptotracker from "/src/assets/images/LOGO Final Part 1-1.jpg";
+import chatapp from "/src/assets/images/t&p.jpg";
+import complainSys from "/src/assets/images/t&p.jpg";
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
 
