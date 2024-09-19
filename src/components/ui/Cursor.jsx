@@ -60,8 +60,8 @@ export default function Cursor() {
         <path
           fill="none"
           stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
+          strokeLinecap=""
+          strokeLinejoin=""
           strokeWidth="1.5"
           d="M6 19L19 6m0 0v12.48M19 6H6.52"
         />

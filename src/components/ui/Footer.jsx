@@ -9,10 +9,11 @@ export default function Footer() {
         <div className="flex space-x-1" >
           <span>&copy;</span>
           <span>2024</span>
-          <span className="font-extrabold uppercase 2xl:text-body-1">naba mf</span>
+          <span className="font-extrabold 2xl:text-body-1">Hustle</span>
+
         </div>
         <div>
-          <span className=" text-body-4 2xl:text-body-1">xxx</span>
+          <span className=" text-body-4 2xl:text-body-1">Deisgn and Developed by Nabadeep...</span>
         </div>
       </div>
    

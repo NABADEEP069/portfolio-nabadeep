@@ -18,62 +18,43 @@ export default function Works({ forwardedRef }) {
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-10 md:col-start-2">
           <Projects
-            link=""
+            link="https://nabadeep069.github.io/Project--Whiplash-Techfest/"
             img={gestureDetection}
-            alt="Real-Time Gesture Detection Using CNN"
-            name="Real-Time Gesture Detection Using CNN"
-            type="Machine Learning • Scikit • NLP • Python"
-            year="2021"
-            tools="ML • Mediapipe • OpenCV • SciKit • Python (Pandas,Numpy)"
+            alt="PRJECT 'WHIPLASH'"
+            name="PROJECT 'WHIPLASH'"
+            type="• This is a virtual drumset project. I did a collaborative project named ”WHIPLASH” alongside four classmates, leveraging
+HTML, CSS, and JavaScript. This project secured first prize in our annual tech fest ”Techcracy”."
+            year="2023"
+            tools="HTML • CSS • JS •(This is only desktop version) "
+            
 
           />
         </div>
          {/* Project #2 */}
          <div className="col-span-1 pt-0 md:col-span-8">
           <Projects
-            link=""
+            link="https://prashxant.github.io/NORTH-EAST-DRONE-SERVICES1/"
             img={cryptotracker}
-            alt="Crypto Currrency Price Tracker"
-            name="Crypto Currrency Price Tracker"
-            type="Frontend Development • React • Context API • Firebase"
-            year="2022"
-            tools="HTML • CSS • JavaScript • React • Material JS • Chart JS • Context API • Email Auth"
+            alt="NEDS"
+            name="NEDS"
+            type="North-east's leading drone service company"
+            year="2024"
+            tools="HTML • CSS • JavaScript • React • "
           />
         </div>
-        {/* Project #3 */}
-        <div className="col-span-1 pt-0 md:col-span-4 md:p-8">
-          <Projects
-            link=""
-            img={chatapp}
-            alt="Chat App"
-            name="Chat App"
-            type="Computer Networks"
-            year="2021"
-            tools="TCP Socket Programming • Multi-Threading • Python"
-          />
-        </div>
+      
         {/* Project #4 */}
-        <div className="col-span-1 pt-0 md:col-span-3 md:pt-60">
-        <Projects
-            link=""
-            img={complainSys}
-            alt="complain and recruitment portal"
-            name="complain and recruitment portal"
-            type="Database Management System"
-            year="2021"
-            tools="Flask • MySql • Postgresql • Heroku"
-          /> 
-        </div>
+      
         {/* Project #5 */}
         <div className="col-span-1 pt-0 md:col-span-9">
           <Projects
-            link="#hero"
+            link="https://placements.cit.ac.in/#/home"
             img={portfolio}
-            alt="Personal Portfolio Site"
-            name="Personal Portfolio Site"
-            type="Frontend Development • React"
-            year="2023"
-            tools="HTML • TailwindCSS • JavaScript • React • Animation(GSAP)"
+            alt=""
+            name="Training and Placement website, CITK"
+            type="Built the official page of the placement cell of CITK."
+            year="2024"
+            tools="React • Typescript • Node.js "
           />
         </div>
       </div>

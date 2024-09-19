@@ -6,29 +6,24 @@ export default function skills() {
   const frontendItemsList = [
     "HTML",
     "CSS",
-    "BootStrap",
     "JavaScript",
-   
-    
     "TailwindCSS",
     "ReactJS",
   ];
 
   const brontendItemsList = [
-    "Rest APIs",
+    
     "Node.js",
     "Express",
     "SQL",
     "MongoDB",
-    "Mongoose",
     "Next.js",
     
   ];
 
   const othersItemsList = [
-    "C ",
-    "Java",
     
+    "Java",
     "Data Structure and Algorithm",
    
   ];
@@ -39,24 +34,17 @@ export default function skills() {
       <div className="space-y-14">
         <SkillsUi
           title="Front-End."
-          description="My focus lies in creating immersive digital experiences that 
-          prioritize user engagement and seamless navigation. I'm dedicated to crafting user-friendly
-           interfaces and enhancing the overall user experience to ensure every interaction is both 
-           intuitive and impactful."
+          description="I create immersive digital experiences focused on user engagement and seamless navigation. My goal is to design intuitive, user-friendly interfaces that enhance the overall user experience."
           items={frontendItemsList}
         />
         <SkillsUi
           title="Back-End."
-          description="My focus is on developing powerful backend solutions that drive seamless digital 
-          operations. I specialize in architecting efficient and scalable systems, prioritizing performance
-           and reliability to deliver optimal user experiences."
+          description="I specialize in developing robust backend solutions that ensure seamless digital operations, focusing on building efficient, scalable systems for optimal performance and reliability."
           items={brontendItemsList}
         />
         <SkillsUi
           title="Programming."
-          description="I have a strong foundation in problem-solving, where I enjoy unraveling complex puzzles
-           and crafting innovative solutions. With experience in various programming challenges, 
-           I've developed expertise in Data Structures and Algorithms."
+          description="I have a basic foundation in problem-solving, with expertise in Data Structures and Algorithms, and a passion for solving complex challenges through innovative solutions."
           items={othersItemsList}
         />
       </div>

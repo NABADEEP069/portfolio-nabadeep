@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
-import profileImg from "/src/assets/images/experienceAmazon.webp";
+import profileImg from "/src/assets/images/t&p.jpg";
+
 import { ScrollTrigger } from "gsap/all";
 import { gsap } from "gsap";
 import Heading from "../ui/Heading";
@@ -47,20 +48,21 @@ export default function ExperienceAbout() {
           <img
             ref={company}
             loading="lazy"
-            className="aspect-square h-auto w-full rounded-md object-cover object-center md:aspect-auto"
+            className="aspect-square h-auto w-full rounded-full object-cover object-center md:aspect-auto"
             src={profileImg}
             width="600"
             height="800"
             alt="portrait image of Huy standing in front of a tree and foliage"
           />
         </div>
+      
         <div className="top-20 sm:sticky md:top-28 lg:top-32 md:w-1/2">
           <div className="w-full space-y-4 2xl:space-y-10">
             <h3
               ref={heading}
               className="translate-y-10 text-heading-3 2xl:text-5xl font-semibold leading-tight opacity-0"
             >
-              Software Developer Intern
+            Technical co-ordinator at Coding Club, CITK
             </h3>
             <h5
             ref={subheading}
@@ -70,13 +72,16 @@ export default function ExperienceAbout() {
             </h5>
             <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
             <br></br>
-              • Led migration of key service from IMS to AEI-XREF, leveraging <b>REST APIs in Spring frameworks</b> for efficient retrieval of ASIN data.
+              • Involved in the club centered around various Program’s.
+
               <br></br>
               <br></br>
               
             </p>
           </div>
         </div>
+        
+      
       </div>
     </section>
   );

@@ -48,10 +48,11 @@ export default function Hero() {
            
           </h1>
         </div>
-        <div className=" title 2xl:py-16 sm:text-7xl text-5xl md:text-8xl lg:text-9xl py-6 xl:text-10xl">
-          <h1 ref={(el) => (titles.current[2] = el)} className=" font-sans translate-y-96">
-            Hey everyone, Myself Nabadeep
-          </h1>
+        <div className=" title 1xl:py-16 sm:text-7xl text-5xl md:text-8xl lg:text-9xl py-6 xl:text-10xl">
+        <h1 ref={(el) => (titles.current[2] = el)} className="font-sans text-4xl translate-y-96">
+  Hey everyone, Myself Nabadeep
+</h1>
+
         </div>
       </div>
       <div
