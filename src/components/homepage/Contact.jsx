@@ -123,14 +123,9 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="mailto:prabhusatyam4.4@gmail.com"
+                href="mailto:nabadeepdas069@gmail.com"
                 className="group relative w-fit cursor-pointer"
-                // target="_blank"
-                // rel="noreferrer"
-                // onClick={(e) => {
-                //   e.preventDefault();
-                //   window.open("mailto:prabhusatyam4.4@gmail.com");
-                // }}
+               
               >
                 <span>nabadeepdas069@gmail.com</span>
                 <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
@@ -143,7 +138,7 @@ export default function Contact() {
             <div className="space-y-3 text-body-2 2xl:text-3xl">
               
             <a
-                href=""
+                href="https://www.linkedin.com/in/nabadeep-kr-das/"
                 className="group group flex w-fit items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
@@ -157,7 +152,7 @@ export default function Contact() {
               
               
               <a
-                href=""
+                href="https://github.com/NABADEEP069"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"

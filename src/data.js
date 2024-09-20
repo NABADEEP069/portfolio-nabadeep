@@ -7,34 +7,34 @@ import complainSys from "/src/assets/images/compain-management-system-1.webp";
 
 const projectsData = [
   {
-    title: 'Real-Time Gesture Detection Using CNN',
-    description: 'Machine Learning • Scikit • NLP • Python',
+    title: '',
+    description: '',
     imageSrc: gestureDetection,
-    link: 'https://github.com/prabhu4444/Real-Time-Gesture-Detection-Using-Convolutional-Neural-Network'
+    link: ''
   },
   {
-    title: 'Crypto Currrency Price Tracker',
-    description: 'Frontend Development • React • Context API • Firebase',
+    title: '',
+    description: '',
     imageSrc: cryptotracker,
-    link: 'https://github.com/prabhu4444/Cryptocurrency-Price-Tracker'
+    link: ''
   },
   {
-    title: 'Chat App',
-    description: 'Computer Networks',
+    title: '',
+    description: '',
     imageSrc: chatapp,
-    link: 'https://github.com/prabhu4444/Chat-App'
+    link: ''
   },
   {
-    title: 'complain and recruitment portal',
-    description: 'Database Management System',
+    title: '',
+    description: '',
     imageSrc: complainSys,
-    link: 'https://github.com/prabhu4444/complain_and_recruitment_portal'
+    link: ''
   },
   {
-    title: 'Personal Portfolio Site',
-    description: 'Frontend Development • React',
+    title: '',
+    description: '',
     imageSrc: portfolio,
-    link: '/' //Add link of portfolio site later
+    link: '' 
   }
 ];
 
