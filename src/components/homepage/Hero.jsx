@@ -7,7 +7,7 @@ export default function Hero() {
   const imgContainer = useRef(null);
   const titles = useRef([]);
   const scrollLine = useRef(null);
-  const scroll = useRef(null)
+  const scroll = useRef(null);
 
   useEffect(() => {
     const tl = gsap.timeline({ repeat: -1 });
@@ -32,42 +32,59 @@ export default function Hero() {
         "-=3.1"
       )
       .to(titles.current, { y: 0, duration: 2, ease: "power4.inOut" }, "-=2.5")
-      .from(scroll.current, {opacity: 0, duration: 1, ease:"out"}, "-=2")
+      .from(scroll.current, { opacity: 0, duration: 1, ease: "out" }, "-=2");
   }, []);
 
   return (
-    <section id="hero" className="hero relative flex w-full h-screen select-none items-center justify-center" aria-label="hero">
-      <div className="z-10 flex flex-col  w-full items-center text-title 2xl:text-[10vw] 2xl:space-y-16 font-black  uppercase text-accent-300">
+    <section
+      id="hero"
+      className="hero relative flex w-full h-screen select-none items-center justify-center"
+      aria-label="hero"
+    >
+      <div className="z-10 flex flex-col w-full items-center text-title 2xl:text-[10vw] 2xl:space-y-16 font-black uppercase text-accent-200">
         <div className="title 2xl:py-16 sm:text-7xl text-5xl md:text-8xl lg:text-9xl xl:text-10xl">
-          <h1 ref={(el) => (titles.current[0] = el)} className="translate-y-96 font-sans py-6 overflow-visible">
-        
+          <h1
+            ref={(el) => (titles.current[0] = el)}
+            className="translate-y-96 font-sans py-6 overflow-visible"
+          >
+          
           </h1>
         </div>
-        <div className=" title 2xl:py-16 sm:text-7xl text-5xl md:text-8xl lg:text-9xl py-6 xl:text-10xl">
-        <h1 ref={(el) => (titles.current[1] = el)} className="translate-y-96 font-sans font-outline-2 md:font-outline-4 text-transparent overflow-visible">
-           
+        <div className="title 2xl:py-16 sm:text-7xl text-5xl md:text-8xl lg:text-9xl py-6 xl:text-10xl">
+          <h1
+            ref={(el) => (titles.current[1] = el)}
+            className="translate-y-96 font-sans font-outline-2 md:font-outline-4 text-transparent overflow-visible"
+          >
+            
           </h1>
         </div>
-        <div className=" title 1xl:py-16 sm:text-7xl text-5xl md:text-8xl lg:text-9xl py-6 xl:text-10xl">
-        <h1 ref={(el) => (titles.current[2] = el)} className="font-sans text-4xl translate-y-96">
-  Hey everyone, Myself Nabadeep
-</h1>
-
+        <div className="title 1xl:py-16 sm:text-7xl text-5xl md:text-8xl lg:text-9xl py-6 xl:text-10xl">
+          <h1
+            ref={(el) => (titles.current[2] = el)}
+            className="font-sans text-4xl translate-y-96"
+          >
+            Hey everyone, Myself Nabadeep
+          </h1>
         </div>
       </div>
+
       <div
         ref={imgContainer}
-        className="absolute mx-auto  w-[55%] overflow-hidden rounded-md"
+        className="absolute mx-auto w-[55%] overflow-hidden rounded-md"
       >
         <img
           ref={img}
-          className=" scale-110 aspect-[11/16] sm:aspect-[5/6] md:aspect-[7/7] rounded-md opacity-50 lg:aspect-[11/9] w-full h-auto"
+          className="aspect-[11/16] sm:aspect-[5/6] md:aspect-[7/7] rounded-md lg:aspect-[11/9] w-full h-auto" 
           src={heroImg}
           alt="Abstract cubic background image."
         />
       </div>
-      <div ref={scroll} className="absolute bottom-12 right-0 flex flex-col items-center justify-center space-y-8">
-        <span className=" rotate-90 text-body-3">scroll</span>
+
+      <div
+        ref={scroll}
+        className="absolute bottom-12 right-0 flex flex-col items-center justify-center space-y-8"
+      >
+        <span className="rotate-90 text-body-3">scroll</span>
         <div className="relative h-1 w-10 rotate-90 overflow-hidden">
           <span
             ref={scrollLine}

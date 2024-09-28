@@ -61,10 +61,10 @@ export default function About() {
             <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
              
               <br></br>
-              <br></br>Hello Myself Nabadeep. I am doing my Bachelors in Technology with Computer Science as a major. I was born in Jan 28 2003 in Nalbari,Assam,India.
+              <br></br>Hello Myself Nabadeep. I am doing my Bachelors in Technology with Computer Science as a major. I was born in Jan 28,2003 in Nalbari,Assam,India.
               <br></br>
               <br></br>
-              I did my kindergarten in Bikash Jatiya Bidyalaya, debachara and continued my primary studies till seven standard at the same school. Then I continued my studies in Sankardeva Bidya Niketan, Nalbari where I got 83.5% in my boards. I went to DR. S.R. Academy, Nalbari from where I completed my higher secondary education and came to Central Institute of Technology for my Bachelor degree.         
+              I did my kindergarden in Bikash Jatiya Bidyalaya, Debachara and continued my primary studies till seven standard at the same school. Then I continued my studies in Sankardeva Bidya Niketan, Nalbari where I got 83.5% in my boards. I went to DR. S.R. Academy, Nalbari from where I completed my higher secondary education and came to Central Institute of Technology for my Bachelor degree.         
               <br></br>
               <br></br>
              
